@@ -1,0 +1,6 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Tailwind uses rem by default for type/spacing.
+   Keep component classes in JSX to avoid @apply issues. */
