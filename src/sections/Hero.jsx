@@ -10,7 +10,7 @@ export default function Hero() {
 
       <div className="container relative py-24 md:py-36 text-center">
         <p className="inline-flex items-center rounded-pill border border-pink-200/80 bg-white/60 backdrop-blur px-5 py-2 text-sm text-brand-purple">
-          Front-End Developer
+          Software Engineer
         </p>
 
         <h1 className="mt-8 text-5xl md:text-7xl font-extrabold leading-tight">
@@ -27,7 +27,9 @@ export default function Hero() {
         </div>
 
         <p className="mx-auto mt-6 max-w-2xl text-slate-600">
-          Full-Stack Software Engineering graduate with a background in digital production and marketing. I build clean, user-focused web apps and am seeking front-end or software engineering roles.
+          Full-Stack Software Engineering graduate with a background in digital
+          production and marketing. I build clean, user-focused web apps and am
+          seeking front-end or software engineering roles.
         </p>
       </div>
     </section>

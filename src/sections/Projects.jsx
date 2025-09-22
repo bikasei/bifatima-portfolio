@@ -62,7 +62,7 @@ const projects = [
     image: './assets/pantry-to-plate.webp',
   },
 
-    {
+  {
     title: 'Color Pallete Generator',
     description:
       'A simple web app to create random palettes or build schemes from a chosen colour using TheColorAPI.',
@@ -78,6 +78,24 @@ const projects = [
     live: 'https://melodious-marigold-563e4b.netlify.app/',
     repo: 'https://github.com/bikasei/pantry-to-plate',
     image: './assets/color-palette.webp',
+  },
+
+  {
+    title: 'Scent Finder - The White Company',
+    description:
+      'Interactive product-recommendation tool that guides users through a series of questions to match them with the perfect fragrance, enhancing personalisation and customer experience.',
+    tech: ['HTML', 'CSS', 'JavaScript', 'Fetch API', 'Dynamic Yield'],
+    live: 'https://www.thewhitecompany.com/uk/help/scent-finder',
+    image: './assets/scent-finder.webp',
+  },
+
+  {
+    title: 'Navigation Flyout - The White Company',
+    description:
+      'Interactive navigation component built to improve user access to The Thread, The White Company’s online magazine. When users hover over The Thread in the navigation, a flyout reveals categories, providing a seamless and intuitive browsing experience.',
+    tech: ['HTML', 'CSS', 'JavaScript', 'Dynamic Yield'],
+    live: 'https://www.thewhitecompany.com/uk/',
+    image: './assets/nav-flyout.webp',
   },
 ];
 
