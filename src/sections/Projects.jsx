@@ -7,7 +7,7 @@ const projects = [
     tech: ['HTML', 'CSS'],
     live: 'https://strong-swan-ced673.netlify.app/',
     repo: '#',
-    image: './assets/html-cv.webp',
+    image: './assets/new-html-cv.webp',
   },
   {
     title: 'SVG Project',

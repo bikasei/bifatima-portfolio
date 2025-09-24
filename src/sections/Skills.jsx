@@ -13,7 +13,7 @@ const groups = [
       'TypeScript',
       'State Management',
       'Tailwind CSS',
-      'Responcive design & Media Queries',
+      'Responsive design & Media Queries',
     ],
   },
   {
