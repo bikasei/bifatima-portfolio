@@ -4,7 +4,7 @@ export default function Navbar() {
   const [open, setOpen] = React.useState(false);
   const links = [
     {
-      href: 'public/assets/Bifatima-CV-2025.pdf',
+      href: '/assets/Bifatima-CV-2025.pdf',
       label: 'My CV',
       newTab: true,
     },
