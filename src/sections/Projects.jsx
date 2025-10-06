@@ -2,47 +2,48 @@ import SectionTitle from '../components/SectionTitle';
 
 const projects = [
   {
-    title: 'HTML and CSS CV ',
-    description: 'A CV made with pure HTML and CSS.',
-    tech: ['HTML', 'CSS'],
-    live: 'https://strong-swan-ced673.netlify.app/',
-    repo: '#',
-    image: './assets/new-html-cv.webp',
-  },
-  {
-    title: 'SVG Project',
-    description: 'A hand coded SVG project using HTML and CSS',
-    tech: ['HTML', 'CV'],
-    live: 'https://peppy-banoffee-0e7b16.netlify.app/',
-    repo: '#',
-    image: './assets/svg-project.webp',
-  },
-  {
-    title: 'Clipboard Landing Page ',
+    title: 'Portfolio and Blog Template',
     description:
-      'Responsive landing page built with HTML and CSS, replicating Figma design across desktop and mobile.',
-    tech: ['HTML', 'CSS', 'Figma'],
-    live: 'https://grand-griffin-1a2f07.netlify.app/',
-    repo: '#',
-    image: './assets/clipboard-landing.webp',
+      'A modern blog and portfolio website built for Fariza (my friend), a political journalist. Designed to highlight her published articles, projects, and professional background with a clean, responsive layout and easy navigation.',
+    tech: ['HTML', 'CSS', 'React', 'Vite'],
+    live: 'https://fariza-blog.netlify.app/',
+    repo: 'https://github.com/bikasei/fariza-blog-template',
+    image: './assets/fariza-blog.webp',
+  },
+
+  {
+    title: 'Scent Finder - The White Company',
+    description:
+      'Interactive product-recommendation tool that guides users through a series of questions to match them with the perfect fragrance, enhancing personalisation and customer experience.',
+    tech: ['HTML', 'CSS', 'JavaScript', 'Fetch API', 'Dynamic Yield'],
+    live: 'https://www.thewhitecompany.com/uk/help/scent-finder',
+    image: './assets/scent-finder.webp',
   },
   {
-    title: 'Four Card Feature Section',
+    title: 'Navigation Flyout - The White Company',
     description:
-      'Responsive feature section built with HTML and CSS, replicating a Figma design across desktop, mobile and tablet.',
-    tech: ['HTML', 'CSS', 'Figma'],
-    live: 'https://superb-bavarois-78b376.netlify.app/',
-    repo: '#',
-    image: './assets/figma-feature.webp',
+      'Interactive navigation component built to improve user access to The Thread, The White Company’s online magazine. When users hover over The Thread in the navigation, a flyout reveals categories, providing a seamless and intuitive browsing experience.',
+    tech: ['HTML', 'CSS', 'JavaScript', 'Dynamic Yield'],
+    live: 'https://www.thewhitecompany.com/uk/',
+    image: './assets/nav-flyout.webp',
   },
+
   {
-    title: 'Groccery List App ',
+    title: 'Color Pallete Generator',
     description:
-      'A console-based JavaScript app built with Object-Oriented Programming. Users can add groceries, view their list, and cross off purchased items.',
-    tech: ['HTML', 'CSS', 'JavaScript'],
-    live: 'http://gentle-rolypoly-58b6e1.netlify.app/',
-    repo: '#',
-    image: './assets/grocery-list.webp',
+      'A simple web app to create random palettes or build schemes from a chosen colour using TheColorAPI.',
+    tech: [
+      'HTML',
+      'CSS',
+      'JavaScript',
+      'LocalStorage',
+      'Fetch API',
+      'ES Modules',
+      'MVC pattern',
+    ],
+    live: 'https://melodious-marigold-563e4b.netlify.app/',
+    repo: 'https://github.com/bikasei/color-palette-generator',
+    image: './assets/color-palette.webp',
   },
   {
     title: 'Pantry to Plate ',
@@ -61,41 +62,49 @@ const projects = [
     repo: 'https://github.com/bikasei/pantry-to-plate',
     image: './assets/pantry-to-plate.webp',
   },
-
   {
-    title: 'Color Pallete Generator',
+    title: 'Grocery List App ',
     description:
-      'A simple web app to create random palettes or build schemes from a chosen colour using TheColorAPI.',
-    tech: [
-      'HTML',
-      'CSS',
-      'JavaScript',
-      'LocalStorage',
-      'Fetch API',
-      'ES Modules',
-      'MVC pattern',
-    ],
-    live: 'https://melodious-marigold-563e4b.netlify.app/',
-    repo: 'https://github.com/bikasei/pantry-to-plate',
-    image: './assets/color-palette.webp',
+      'A console-based JavaScript app built with Object-Oriented Programming. Users can add groceries, view their list, and cross off purchased items.',
+    tech: ['HTML', 'CSS', 'JavaScript'],
+    live: 'http://gentle-rolypoly-58b6e1.netlify.app/',
+    repo: 'https://github.com/bikasei/grocery-app-opp',
+    image: './assets/grocery-list.webp',
   },
 
   {
-    title: 'Scent Finder - The White Company',
-    description:
-      'Interactive product-recommendation tool that guides users through a series of questions to match them with the perfect fragrance, enhancing personalisation and customer experience.',
-    tech: ['HTML', 'CSS', 'JavaScript', 'Fetch API', 'Dynamic Yield'],
-    live: 'https://www.thewhitecompany.com/uk/help/scent-finder',
-    image: './assets/scent-finder.webp',
+    title: 'SVG Project',
+    description: 'A hand coded SVG project using HTML and CSS',
+    tech: ['HTML', 'CV'],
+    live: 'https://peppy-banoffee-0e7b16.netlify.app/',
+    repo: 'https://github.com/bikasei/svg-project',
+    image: './assets/svg-project.webp',
   },
-
   {
-    title: 'Navigation Flyout - The White Company',
+    title: 'Clipboard Landing Page ',
     description:
-      'Interactive navigation component built to improve user access to The Thread, The White Company’s online magazine. When users hover over The Thread in the navigation, a flyout reveals categories, providing a seamless and intuitive browsing experience.',
-    tech: ['HTML', 'CSS', 'JavaScript', 'Dynamic Yield'],
-    live: 'https://www.thewhitecompany.com/uk/',
-    image: './assets/nav-flyout.webp',
+      'Responsive landing page built with HTML and CSS, replicating Figma design across desktop and mobile.',
+    tech: ['HTML', 'CSS', 'Figma'],
+    live: 'https://grand-griffin-1a2f07.netlify.app/',
+    repo: 'https://github.com/bikasei/clipboard-landing-page',
+    image: './assets/clipboard-landing.webp',
+  },
+  {
+    title: 'Four Card Feature Section',
+    description:
+      'Responsive feature section built with HTML and CSS, replicating a Figma design across desktop, mobile and tablet.',
+    tech: ['HTML', 'CSS', 'Figma'],
+    live: 'https://superb-bavarois-78b376.netlify.app/',
+    repo: 'https://github.com/bikasei/four-card-feature-section',
+    image: './assets/figma-feature.webp',
+  },
+  {
+    title: 'HTML and CSS CV ',
+    description: 'A CV made with pure HTML and CSS.',
+    tech: ['HTML', 'CSS'],
+    live: 'https://strong-swan-ced673.netlify.app/',
+    repo: 'https://github.com/bikasei/bifatima-cv',
+    image: './assets/new-html-cv.webp',
   },
 ];
 
