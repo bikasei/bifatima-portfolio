@@ -28,8 +28,8 @@ export default function Hero() {
 
         <p className="mx-auto mt-6 max-w-2xl text-slate-600">
           Full-Stack Software Engineering graduate with a background in digital
-          production and marketing. I build clean, user-focused web apps and am
-          seeking front-end or software engineering roles.
+          production and marketing. I build clean, user-focused web apps and 
+          seeking for front-end or software engineering roles.
         </p>
       </div>
     </section>
