@@ -4,14 +4,15 @@ import Button from '../components/Button.jsx';
 export default function Hero() {
   return (
     <section className="relative overflow-hidden">
-      {/* soft gradient backdrop */}
       <div className="absolute inset-0 bg-gradient-to-b from-white via-pink-50 to-indigo-50" />
       <BackgroundBlobs />
 
       <div className="container relative py-24 md:py-36 text-center">
-        <p className="inline-flex items-center rounded-pill border border-pink-200/80 bg-white/60 backdrop-blur px-5 py-2 text-sm text-brand-purple">
-          Software Engineer
-        </p>
+        <img
+          src="/assets/profile-pic.webp"
+          alt="Bifatima's profile picture"
+          className=" inline-flex items-center w-32 h-32 rounded-full object-cover border-4 border-white shadow-md"
+        />
 
         <h1 className="mt-8 text-5xl md:text-7xl font-extrabold leading-tight">
           Hello, I’m{' '}
@@ -28,7 +29,7 @@ export default function Hero() {
 
         <p className="mx-auto mt-6 max-w-2xl text-slate-600">
           Full-Stack Software Engineering graduate with a background in digital
-          production and marketing. I build clean, user-focused web apps and 
+          production and marketing. I build clean, user-focused web apps and
           seeking for front-end or software engineering roles.
         </p>
       </div>
